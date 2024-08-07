@@ -138,7 +138,7 @@ body{
     color: white;
 }
 /* *******************HEADER COMPLETED********************* */
-/* IMAGES */
+/* IMAGES SLIDER */
 .toys{
     /* width: 1349px; */
     /* height: 600px;
@@ -214,4 +214,52 @@ body{
 }
 .mask{
     mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+}
+/* SHOPPING CARDS */
+.shopping-cards{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: 385px;
+    width: 312.250px;
+}
+.box h2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box1{
+    background-color: white;
+
+}
+.card1{
+}
+.inner-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.box a:hover{
+    color: rgb(255, 94, 0);
+}
+.box1 a{
+    width: none;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #007185;
+}
+.card1 img{
+    height: 102px;
+    width: 128px;
+    object-fit: cover;
+}
+.spacing{
+    padding-top: 30px;
 }
