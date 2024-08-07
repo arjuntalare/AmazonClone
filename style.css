@@ -138,31 +138,8 @@ body{
     color: white;
 }
 /* *******************HEADER COMPLETED********************* */
+/* *******************BODY STARTED**************************/
 /* IMAGES SLIDER */
-.toys{
-    /* width: 1349px; */
-    /* height: 600px;
-    background-size: cover;
-    background-image: url(assets/5.jpg); */
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-end; */                  /*turn back this section*/
-}
-.toysmessage a{
-    color: #007185;
-    text-decoration: none;
-}
-.toysmessage{
-    font-size: 0.875rem;
-    width: 1309px;
-    height: 40px;
-    color: black;
-    display: flex;
-    margin-bottom: 310px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
 .image-container{
     cursor: pointer;
     position: relative;
@@ -216,7 +193,9 @@ body{
     mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 /* SHOPPING CARDS */
-.shopping-cards{
+.row1{
+    position: relative;
+    top: -270px;
     width: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -230,6 +209,7 @@ body{
     width: 312.250px;
 }
 .box h2{
+    font-size: 21px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -250,6 +230,7 @@ body{
     color: rgb(255, 94, 0);
 }
 .box1 a{
+    cursor: pointer;
     width: none;
     padding: 0 20px;
     text-decoration: none;
@@ -263,3 +244,10 @@ body{
 .spacing{
     padding-top: 30px;
 }
+.row2{
+    padding-top: 25px;
+}
+.row3{
+    padding-top: 25px;
+}
+/* *******************BODY COMPLETED**************************/
