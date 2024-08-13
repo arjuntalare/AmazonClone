@@ -250,4 +250,124 @@ body{
 .row3{
     padding-top: 25px;
 }
+.shopping-cards{
+    height: 1065px;
+}
 /* *******************BODY COMPLETED**************************/
+/* *******************FOOTER STARTED**************************/
+.back-t-p{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #fffcfa;
+    background-color: #2e3e51;
+    font-size: 13px;
+    height: 22px;
+    width: 1498.890px;
+    padding: 15px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.back-t-p:hover{
+    background-color:#3f5671 ;
+}
+.middlefooter{
+    background-color: #232f3e;
+    display: flex;
+    padding-top: 46px;
+    justify-content: space-evenly;
+    height: 340px;
+    width: 1498.890px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middlefooter a{
+    cursor : pointer;
+    font-size: 0.90rem;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #dddddd;
+}
+.middlefooter a:hover{
+    text-decoration: underline;
+}
+.middlefooter p{  
+    color: white;
+    font-weight: 600;
+}
+.logofooter{
+    height: 100px;
+    width: 1498.890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.4px solid #3a4553;
+    background-color: #232f3e;
+    margin-left: auto;
+    margin-right: auto;
+}
+.amazonfooter-box img{
+    cursor: pointer;
+    height: 22.986px;
+    width: 75.990px;
+}
+.amazonfooter-box{
+    padding-left: 400px;
+}
+
+.english-box{
+    margin-left: 6px;
+    cursor: pointer;
+    border: 1.11px solid #848688;
+    display: flex;
+    
+}
+.english-box img{
+    height: 15px;
+    width: 15px;
+    padding-right: 10px;
+}
+.english-box p{
+    color: #dddddd;
+}
+.english-box i{
+    padding-left: 5px;
+    color: #666666;
+}
+.dollar-sign i{
+    padding-right: 8px;
+    color: white;
+}
+.usa-logo{
+    padding-left: 6px;
+    
+}
+.finalfooter{
+    padding-top: 50px;
+    height: 100px;
+    background-color:#131a22 ;
+    text-align: center;
+}
+.finalfooter a{
+    font-size: 0.85rem;
+    color:#dddddd ;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.finalfooter a:hover{
+    text-decoration: underline;
+}
+.finalfooter img{
+    padding-left: 8px;
+    padding-top: 6px;
+    height:13.993px;
+    width: 28px;
+}
+.finalfooter p{
+    color: #ddd;
+    font-size: 0.85rem;
+    text-align: center;
+    padding-top: 10px;
+}
+/*********************************** FOOTER COMPLETED **********************************/
